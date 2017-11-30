@@ -76,5 +76,15 @@ namespace crazybullets
                 } 
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblship_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

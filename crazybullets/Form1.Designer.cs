@@ -40,6 +40,7 @@
             this.lblship.Name = "lblship";
             this.lblship.Size = new System.Drawing.Size(100, 23);
             this.lblship.TabIndex = 0;
+            this.lblship.Click += new System.EventHandler(this.lblship_Click);
             // 
             // timer1
             // 
@@ -54,6 +55,7 @@
             this.Controls.Add(this.lblship);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
 
